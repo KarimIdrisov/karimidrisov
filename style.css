@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  margin-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 5%;
+  margin-left: 8%;
+  text-align: center;
+  font-size: 30px;
+}
+
+.header-mf {
+  margin-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-left: 43%;
+  font-size: 250%;
+  font-style: italic;
+}
+
+p {
+  display: inline;
+}
+
+img {
+  border-radius: 30px;
+  border-color: #c0c0c1;
+  border-style: groove;
+}
+
+body {
+  background-color: #c0c0c0;
+}
+
+
+.low-header {
+  display: inline;
+  font-size: 100px;
+  margin-left: 35%;
+}
+
+.list-style {
+  font-size: 30px;
+  display: inline;
+  text-align: center;
+}
+
+a.rollover {
+    border-radius: 30px;
+    border-color: #c0c0c1;
+    border-style: groove;
+    text-align: left;
+    margin-left: 15%;
+    background: url(angry.jpg); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 969px; /* Ширина рисунка */
+    height: 414px; /*  Высота рисунка */
+}
+
+a.rollover:hover {
+    background: url(good.jpg); /* Путь к файлу с заменяемым рисунком  */
+}
+
+footer {
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+}
